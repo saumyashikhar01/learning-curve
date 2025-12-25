@@ -1,0 +1,55 @@
+Day 1: Python Fundamentals & SQL Basics
+
+Goal: Get comfortable with Python syntax, basic programming, and connecting to a database.
+
+Python
+
+Topics:
+
+Variables, data types, lists, dictionaries, sets, tuples
+
+Functions, loops, conditionals
+
+File I/O
+
+Exception handling
+
+Resources:
+
+Official Python Tutorial
+
+Practice: HackerRank Python 30min exercises
+
+SQL
+
+Topics:
+
+Basic queries: SELECT, WHERE, ORDER BY, LIMIT
+
+Aggregate functions: COUNT, SUM, AVG, MAX, MIN
+
+Joins: INNER, LEFT, RIGHT
+
+Create tables, insert data
+
+Practice:
+
+Install SQLite3 (simple) or MySQL locally
+
+Use w3schools SQL TryIt
+
+Try creating a table, inserting 5–10 rows, and running queries
+
+Hands-on Exercise
+
+Create a Python script to:
+
+Connect to SQLite/MySQL
+
+Create a table
+
+Insert some sample data
+
+Run SELECT queries from Python and print results
+
+Outcome: You can read/write SQL from Python and understand basic DB operations.

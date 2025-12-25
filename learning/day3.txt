@@ -1,0 +1,63 @@
+Day 3: Mini Project – Combine Everything
+
+Goal: Build a fully working mini REST API server with Python + SQL.
+
+Mini Project: User Management API
+
+Endpoints:
+
+GET /users → list all users
+
+POST /users → create a new user
+
+GET /users/<id> → fetch single user
+
+PUT /users/<id> → update user
+
+DELETE /users/<id> → delete user
+
+Tech Stack:
+
+Python 3.11+
+
+Flask
+
+SQLite/MySQL
+
+Steps:
+
+Setup Flask app
+
+Connect DB
+
+Implement CRUD endpoints
+
+Test using Postman or curl
+
+Optional Stretch
+
+Add error handling for invalid input
+
+Return HTTP status codes properly
+
+Add logging for each request
+
+Tips from a Senior Engineer
+
+Focus on hands-on coding — don’t just read docs.
+
+Use Postman or curl to test REST APIs.
+
+Keep everything simple — a small working project is better than lots of theory.
+
+Commit your project to GitHub — it’s your first mini portfolio.
+
+After 2–3 days, you should be able to:
+
+Spin up a Flask server
+
+Connect it to a database
+
+Expose REST APIs
+
+Perform CRUD operations

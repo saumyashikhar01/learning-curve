@@ -1,0 +1,56 @@
+Day 2: HTTP Server + REST APIs + Python Framework
+
+Goal: Learn how to build a simple HTTP server and expose REST APIs using Python frameworks.
+
+HTTP Server
+
+Topics:
+
+Basics of HTTP: GET, POST, PUT, DELETE
+
+Status codes: 200, 201, 400, 404, 500
+
+Quick hands-on:
+
+python -m http.server 8080
+
+
+Opens a basic HTTP server serving files
+
+Python Framework
+
+Use Flask (lightweight, perfect for beginners)
+
+Topics:
+
+Creating routes: @app.route('/path', methods=['GET','POST'])
+
+Handling JSON requests/responses
+
+Using query parameters
+
+Resources:
+
+Flask Quickstart
+
+Exercise:
+
+Create /users endpoint
+
+Return a hardcoded JSON list of users on GET
+
+Accept new user data on POST
+
+Database Connectivity
+
+Connect Flask to SQLite/MySQL
+
+Use sqlite3 or mysql-connector-python
+
+Exercise:
+
+Create /users table
+
+Make GET /users return users from DB
+
+Make POST /users insert into DB
