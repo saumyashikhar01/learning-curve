@@ -14,7 +14,7 @@ console.log(myHeroIsGentalMan);
 // myArr.pop()
 
 // myArr.unshift(9)
-// myArr.shift()
+// myArr.shift( )
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
