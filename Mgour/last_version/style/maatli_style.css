@@ -55,12 +55,11 @@ body {
   overflow: hidden;
 }
 
-
 /* Real background image */
 .hero-bg-img {
   position: absolute;
   inset: 0;
-  background-image: url("/maatli_assets/maatli_header_bg.webp");
+  background-image: url("maatli_assets/maatli_header_bg.webp");
   background-size: cover;
   background-position: center 35%;
   opacity: 0.5;
@@ -95,11 +94,9 @@ body {
 .hero-logo {
   width: clamp(240px, 46vw, 480px);
   height: auto;
-  margin-bottom: auto;
 }
 
 /* Hero tagline */
-
 .hero-tagline {
   font-size: clamp(0.95rem, 2vw, 1.3rem);
   font-weight: 400;
@@ -107,8 +104,6 @@ body {
   opacity: 0.9;
   line-height: 1.65;
   max-width: 460px;
-  margin-top: auto;    
-  margin-bottom: 10px;
 }
 .hero-tagline strong {
   font-weight: 700;
@@ -293,9 +288,6 @@ footer {
   gap: 9px;
 }
 .footer-col a {
-  display: flex;
-  align-items: center;
-  gap: 8px;
   font-size: 0.83rem;
   font-weight: 400;
   color: var(--footer-txt);
@@ -304,9 +296,6 @@ footer {
   transition: opacity 0.2s;
   white-space: nowrap;
   line-height: 1.4;
-}
-.footer-col a i {
-  font-size: 16px;
 }
 .footer-col a:hover { opacity: 1; }
 
@@ -503,67 +492,4 @@ footer {
   .phone-wrap img { width: 100px; }
   .app-row.stag .app-card { padding-right: 110px; }
   .app-row.ooo  .app-card { padding-left:  110px; }
-}
-
-/* modal box */
-.custom-modal .modal-content {
-  background: var(--hero-bg);
-  color: var(--cream);
-  border-radius: var(--radius);
-  border: none;
-}
-
-/* header */
-.custom-modal .modal-header {
-  border-bottom: 1px solid var(--legal-border);
-}
-
-.custom-modal .modal-title {
-  color: var(--cream);
-}
-
-/* close button */
-.custom-modal .btn-close {
-  filter: invert(1);
-}
-
-/* labels */
-.custom-modal label {
-  color: var(--legal-muted);
-}
-
-/* inputs */
-.custom-modal .form-control {
-  background: #2b1505;
-  color: var(--cream);
-  border: 1px solid var(--legal-border);
-  border-radius: var(--radius-sm);
-}
-
-.custom-modal .form-control::placeholder {
-  color: rgba(255, 219, 156, 0.5);
-}
-
-/* focus */
-.custom-modal .form-control:focus {
-  border-color: var(--card-bg);
-  box-shadow: none;
-}
-
-/* button */
-.custom-modal .btn-primary {
-  background: var(--card-bg);
-  color: var(--ink);
-  border: none;
-  border-radius: var(--radius-sm);
-}
-
-/* small text */
-.custom-modal p {
-  color: var(--legal-muted);
-}
-
-/* links */
-.custom-modal a {
-  color: var(--card-bg);
 }
